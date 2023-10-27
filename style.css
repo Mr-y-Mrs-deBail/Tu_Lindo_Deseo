@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Tangerine:wght@700&display=swap');
+
+body{
+    background: linear-gradient(95deg, #f095ff, #cc9fe1, #d075c0, #c3b1bf);
+    background-size: 800% 800%;
+    -webkit-animation: Animation 16s ease infinite;
+    -moz-animation: Animation 16s ease infinite;
+    animation: Animation 16s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-center, .text2 {
+    font-family: 'Tangerine', cursive; 
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    color: #000000;
+}
+
+.text-center, .text2{
+    display: flex;
+    color: #000000;
+    display: inline-block;
+    animation: animación 4s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+.text-sm-center{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.stars{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    font-family: 'Caveat', cursive;
+}
+
+.btn1 {
+    background-color: #552c68;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: #4f136b;
+    color: white;
+
+}
+
+@keyframes animación{
+    0%{
+        transform: translateY(0px);
+    }
+    5%{
+        transform: translateY(-10px);
+    }
+    10%,50%{
+        transform: translateY(0px);
+    }
+}
+
+.fugaz{
+    width: 105px;
+}
+  
+.star{
+    color: yellow;
+    font-size: 25px;
+}
+
+.rounded{
+    animation: shakeY linear infinite;
+    animation-duration: 10s;
+    width: 10%;
+}
+
+.bear{
+    width: 150px;
+}
+
+@media screen and (max-width: 767px) {
+    .rounded{
+        width: 25%;
+        left: 4%;
+    }
+}    
+
