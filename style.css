@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Tangerine:wght@700&display=swap');
 
-body{
+body {
     background: linear-gradient(95deg, #f095ff, #cc9fe1, #d075c0, #c3b1bf);
     background-size: 800% 800%;
     -webkit-animation: Animation 16s ease infinite;
@@ -39,7 +39,7 @@ body{
     color: #000000;
 }
 
-.text-center, .text2{
+.text-center, .text2 {
     display: flex;
     color: #000000;
     display: inline-block;
@@ -47,16 +47,16 @@ body{
     animation-delay: calc(0.1s * var(--i));
 }
 
-.text-sm-center{
+.text-sm-center {
     font-family: 'Caveat', cursive;
     font-weight: bold;
 }
 
-.stars{
+.stars {
     font-family: 'Courier New', Courier, monospace;
 }
 
-form{
+form {
     font-family: 'Caveat', cursive;
 }
 
@@ -65,13 +65,13 @@ form{
     color: white;
 }
 
-.btn1:hover{
+.btn1:hover {
     background-color: #4f136b;
     color: white;
 
 }
 
-@keyframes animación{
+@keyframes animación {
     0%{
         transform: translateY(0px);
     }
@@ -83,22 +83,22 @@ form{
     }
 }
 
-.fugaz{
+.fugaz {
     width: 105px;
 }
   
-.star{
+.star {
     color: yellow;
     font-size: 25px;
 }
 
-.rounded{
+.rounded {
     animation: shakeY linear infinite;
     animation-duration: 10s;
     width: 10%;
 }
 
-.bear{
+.bear {
     width: 150px;
 }
 
